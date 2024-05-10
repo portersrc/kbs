@@ -35,7 +35,7 @@ function usage_and_exit() {
     echo "      Example: v0.8.2"
     echo
     echo "Example usage:"
-    echo "    ./release-helper.sh -u \${gh_username} -k \${gh_token} -c dc01f454264fb4350e5f69eba05683a9a1882c41 -n v0.8.2"
+    echo "    ./release-helper.sh -u \${gh_username} -k \${gh_token} -c dc01f454264fb4350e5f69eba05683a9a1882c41 -r v0.8.2"
     echo
     exit 1
 }

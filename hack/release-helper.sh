@@ -164,7 +164,7 @@ function bump_kustomization_with_pr() {
       -H "X-GitHub-Api-Version: 2022-11-28" \
       https://api.github.com/repos/confidential-containers/trustee/pulls \
       -d '{"title":"Release: Update KBS for '${release_tag}'",
-           "body":"Updates kustomization.yaml for next release.",
+           "body":"Update kustomization.yaml for next release.",
            "head":"'${gh_username}':'${update_branch}'",
            "base":"main"}')
     rc=$(echo ${rv} | head -n 1 | cut -d' ' -f2)
